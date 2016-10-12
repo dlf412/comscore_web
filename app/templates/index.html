@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}ComScore{% endblock %}
+
+{% block page_content %}
+<div>
+    <h1>Hello, Welcome to using comScore system!</h1>
+    {{ wtf.quick_form(top_form) }}
+    {{ wtf.quick_form(query_form) }}
+    <a href="{{ url_for('main.top', rank=10) }}" font-size="20"> Top10<br/> </a>
+    <a href="{{ url_for('main.top', rank=100) }}" font-size="20"> Top100<br/>  </a>
+    <a href="{{ url_for('main.top', rank=1000) }}" font-size="20"> Top1000<br/>  </a>
+</div>
+{% endblock %}

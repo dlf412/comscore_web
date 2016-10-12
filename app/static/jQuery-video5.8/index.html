@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Video.js | HTML5 Video Player</title>
+<link href="css/video-js.min.css" rel="stylesheet">
+<script src="js/video.min.js"></script>
+</head>
+
+<script>
+    videojs.options.flash.swf = "video-js.swf";
+</script>
+
+<body>
+
+ <video id="example_video_1" class="video-js vjs-default-skin" controls preload="none" width="640" height="264"
+      poster="http://video-js.zencoder.com/oceans-clip.png"
+      data-setup="{}">
+     <source src="http://localhost:5000/video/?path=%2Fopt%2Fvobile%2Fcomscore%2Fvar%2Fvideo%2F20160917%2Furl_20160917.csv.gz%2F0%2F44%2Fd167d7bfa3d315a27a28e0061cb63c13.flv" type="video/x-flv"/>
+    <track kind="captions" src="demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+    <track kind="subtitles" src="demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+
+
+</body>
+</html>

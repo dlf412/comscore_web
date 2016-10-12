@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% import "_macros.html" as macros %}
+{% block title %}ComScore{% endblock %}
+
+{% block page_content %}
+<div>
+    <h1>Hello, The top {% if rank %} rank {% endif %} matched metaIDs as follows:</h1>
+</div>
+<div>
+    {% for top in tops %}
+    <li><a href="{{ url_for('main.meta', uuid=top[0]) }}" target="_blank"> {{ top[0] }}</a>  count: {{ top[1] }} </li>
+    {% endfor %}
+</div>
+{% if pagination %}
+<div class="pagination">
+    {% if rank %}
+    {{ macros.pagination_top(pagination, 'main.top', rank=rank) }}
+    {% else %}
+    {{ macros.pagination_top(pagination, 'main.top') }}
+    {% endif %}
+</div>
+{% endif %}
+{% endblock %}

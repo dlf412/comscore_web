@@ -1,0 +1,173 @@
+2016-10-08 14:44:23,347 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2016-10-08 14:44:23,348 INFO daemonizing the supervisord process
+2016-10-08 14:44:23,348 INFO set current directory: '/home/deng_lingfei/git_warehouse/comsocre_web/venv/../'
+2016-10-08 14:44:23,348 INFO supervisord started with pid 2007
+2016-10-08 14:44:24,352 INFO spawned: 'comscore' with pid 2008
+2016-10-08 14:44:24,456 INFO exited: comscore (exit status 3; not expected)
+2016-10-08 14:44:25,459 INFO spawned: 'comscore' with pid 2014
+2016-10-08 14:44:25,561 INFO exited: comscore (exit status 3; not expected)
+2016-10-08 14:44:27,566 INFO spawned: 'comscore' with pid 2021
+2016-10-08 14:44:27,663 INFO exited: comscore (exit status 3; not expected)
+2016-10-08 14:44:30,668 INFO spawned: 'comscore' with pid 2030
+2016-10-08 14:44:30,762 INFO exited: comscore (exit status 3; not expected)
+2016-10-08 14:44:31,762 INFO gave up: comscore entered FATAL state, too many start retries too quickly
+2016-10-08 14:55:17,967 WARN received SIGTERM indicating exit request
+2016-10-08 14:55:29,830 INFO RPC interface 'supervisor' initialized
+2016-10-08 14:55:29,830 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2016-10-08 14:55:29,831 INFO daemonizing the supervisord process
+2016-10-08 14:55:29,831 INFO set current directory: '/home/deng_lingfei/git_warehouse/comsocre_web/venv/../'
+2016-10-08 14:55:29,831 INFO supervisord started with pid 2314
+2016-10-08 14:55:30,835 INFO spawned: 'comscore' with pid 2317
+2016-10-08 14:55:30,938 INFO exited: comscore (exit status 3; not expected)
+2016-10-08 14:55:31,941 INFO spawned: 'comscore' with pid 2324
+2016-10-08 14:55:32,032 INFO exited: comscore (exit status 3; not expected)
+2016-10-08 14:55:34,036 INFO spawned: 'comscore' with pid 2331
+2016-10-08 14:55:34,139 INFO exited: comscore (exit status 3; not expected)
+2016-10-08 14:55:37,145 INFO spawned: 'comscore' with pid 2337
+2016-10-08 14:55:37,247 INFO exited: comscore (exit status 3; not expected)
+2016-10-08 14:55:38,248 INFO gave up: comscore entered FATAL state, too many start retries too quickly
+2016-10-08 15:00:51,511 INFO RPC interface 'supervisor' initialized
+2016-10-08 15:00:51,511 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2016-10-08 15:00:51,512 INFO daemonizing the supervisord process
+2016-10-08 15:00:51,512 INFO set current directory: '/home/deng_lingfei/git_warehouse/comsocre_web/venv/../'
+2016-10-08 15:00:51,512 INFO supervisord started with pid 2574
+2016-10-08 15:00:52,515 INFO spawned: 'comscore' with pid 2576
+2016-10-08 15:00:53,939 INFO success: comscore entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-10-08 16:41:47,767 INFO waiting for comscore to die
+2016-10-08 16:41:47,826 INFO stopped: comscore (exit status 0)
+2016-10-08 16:41:47,829 INFO RPC interface 'supervisor' initialized
+2016-10-08 16:41:47,830 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2016-10-08 16:41:47,830 INFO supervisord started with pid 2574
+2016-10-08 16:41:48,832 INFO spawned: 'comscore' with pid 8958
+2016-10-08 16:41:50,198 INFO success: comscore entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-10-08 16:45:27,684 INFO waiting for comscore to die
+2016-10-08 16:45:27,743 INFO stopped: comscore (exit status 0)
+2016-10-08 16:45:27,746 INFO RPC interface 'supervisor' initialized
+2016-10-08 16:45:27,746 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2016-10-08 16:45:27,746 INFO supervisord started with pid 2574
+2016-10-08 16:45:28,747 INFO spawned: 'comscore' with pid 9079
+2016-10-08 16:45:30,072 INFO success: comscore entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-10-08 17:32:03,384 INFO waiting for comscore to die
+2016-10-08 17:32:03,444 INFO stopped: comscore (exit status 0)
+2016-10-08 17:32:03,446 INFO RPC interface 'supervisor' initialized
+2016-10-08 17:32:03,446 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2016-10-08 17:32:03,446 INFO supervisord started with pid 2574
+2016-10-08 17:32:04,448 INFO spawned: 'comscore' with pid 10260
+2016-10-08 17:32:04,750 INFO exited: comscore (exit status 1; not expected)
+2016-10-08 17:32:06,629 INFO spawned: 'comscore' with pid 10288
+2016-10-08 17:32:06,908 INFO exited: comscore (exit status 1; not expected)
+2016-10-08 17:32:08,912 INFO spawned: 'comscore' with pid 10313
+2016-10-08 17:32:09,180 INFO exited: comscore (exit status 1; not expected)
+2016-10-08 17:32:12,186 INFO spawned: 'comscore' with pid 10338
+2016-10-08 17:32:12,541 INFO exited: comscore (exit status 1; not expected)
+2016-10-08 17:32:12,541 INFO gave up: comscore entered FATAL state, too many start retries too quickly
+2016-10-08 17:32:39,798 INFO RPC interface 'supervisor' initialized
+2016-10-08 17:32:39,798 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2016-10-08 17:32:39,798 INFO supervisord started with pid 2574
+2016-10-08 17:32:40,800 INFO spawned: 'comscore' with pid 10389
+2016-10-08 17:32:42,479 INFO success: comscore entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-10-08 17:34:51,582 INFO waiting for comscore to die
+2016-10-08 17:34:51,641 INFO stopped: comscore (exit status 0)
+2016-10-08 17:34:51,644 INFO RPC interface 'supervisor' initialized
+2016-10-08 17:34:51,644 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2016-10-08 17:34:51,644 INFO supervisord started with pid 2574
+2016-10-08 17:34:52,646 INFO spawned: 'comscore' with pid 10492
+2016-10-08 17:34:54,058 INFO success: comscore entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-10-08 18:26:33,846 INFO waiting for comscore to die
+2016-10-08 18:26:33,887 INFO stopped: comscore (exit status 0)
+2016-10-08 18:26:33,891 INFO RPC interface 'supervisor' initialized
+2016-10-08 18:26:33,891 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2016-10-08 18:26:33,891 INFO supervisord started with pid 2574
+2016-10-08 18:26:34,893 INFO spawned: 'comscore' with pid 15677
+2016-10-08 18:26:36,256 INFO success: comscore entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-10-09 10:39:55,290 INFO waiting for comscore to die
+2016-10-09 10:39:55,341 INFO stopped: comscore (exit status 0)
+2016-10-09 10:39:55,361 INFO RPC interface 'supervisor' initialized
+2016-10-09 10:39:55,361 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2016-10-09 10:39:55,361 INFO supervisord started with pid 2574
+2016-10-09 10:39:56,384 INFO spawned: 'comscore' with pid 4250
+2016-10-09 10:39:57,491 INFO success: comscore entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-10-09 11:04:34,977 INFO waiting for comscore to die
+2016-10-09 11:04:35,038 INFO stopped: comscore (exit status 0)
+2016-10-09 11:04:35,041 INFO RPC interface 'supervisor' initialized
+2016-10-09 11:04:35,041 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2016-10-09 11:04:35,041 INFO supervisord started with pid 2574
+2016-10-09 11:04:36,045 INFO spawned: 'comscore' with pid 5269
+2016-10-09 11:04:37,348 INFO success: comscore entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-10-09 11:05:41,857 INFO waiting for comscore to die
+2016-10-09 11:05:41,905 INFO stopped: comscore (exit status 0)
+2016-10-09 11:05:41,907 INFO RPC interface 'supervisor' initialized
+2016-10-09 11:05:41,907 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2016-10-09 11:05:41,907 INFO supervisord started with pid 2574
+2016-10-09 11:05:42,910 INFO spawned: 'comscore' with pid 5335
+2016-10-09 11:05:44,321 INFO success: comscore entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-10-09 11:06:37,749 INFO waiting for comscore to die
+2016-10-09 11:06:37,796 INFO stopped: comscore (exit status 0)
+2016-10-09 11:06:37,799 INFO RPC interface 'supervisor' initialized
+2016-10-09 11:06:37,799 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2016-10-09 11:06:37,799 INFO supervisord started with pid 2574
+2016-10-09 11:06:38,802 INFO spawned: 'comscore' with pid 5396
+2016-10-09 11:06:40,192 INFO success: comscore entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-10-09 11:08:52,447 INFO waiting for comscore to die
+2016-10-09 11:08:52,499 INFO stopped: comscore (exit status 0)
+2016-10-09 11:08:52,502 INFO RPC interface 'supervisor' initialized
+2016-10-09 11:08:52,502 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2016-10-09 11:08:52,502 INFO supervisord started with pid 2574
+2016-10-09 11:08:53,504 INFO spawned: 'comscore' with pid 5497
+2016-10-09 11:08:54,848 INFO success: comscore entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-10-09 11:12:01,793 INFO waiting for comscore to die
+2016-10-09 11:12:01,844 INFO stopped: comscore (exit status 0)
+2016-10-09 11:12:01,846 INFO RPC interface 'supervisor' initialized
+2016-10-09 11:12:01,846 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2016-10-09 11:12:01,846 INFO supervisord started with pid 2574
+2016-10-09 11:12:02,849 INFO spawned: 'comscore' with pid 5611
+2016-10-09 11:12:04,186 INFO success: comscore entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-10-09 11:15:16,228 INFO waiting for comscore to die
+2016-10-09 11:15:16,282 INFO stopped: comscore (exit status 0)
+2016-10-09 11:15:16,284 INFO RPC interface 'supervisor' initialized
+2016-10-09 11:15:16,284 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2016-10-09 11:15:16,284 INFO supervisord started with pid 2574
+2016-10-09 11:15:17,287 INFO spawned: 'comscore' with pid 5726
+2016-10-09 11:15:18,690 INFO success: comscore entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-10-09 13:36:29,620 INFO waiting for comscore to die
+2016-10-09 13:36:29,680 INFO stopped: comscore (exit status 0)
+2016-10-09 13:36:29,682 INFO RPC interface 'supervisor' initialized
+2016-10-09 13:36:29,682 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2016-10-09 13:36:29,682 INFO supervisord started with pid 2574
+2016-10-09 13:36:30,684 INFO spawned: 'comscore' with pid 17535
+2016-10-09 13:36:32,083 INFO success: comscore entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-10-09 13:50:00,940 INFO waiting for comscore to die
+2016-10-09 13:50:00,982 INFO stopped: comscore (exit status 0)
+2016-10-09 13:50:00,986 INFO RPC interface 'supervisor' initialized
+2016-10-09 13:50:00,986 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2016-10-09 13:50:00,986 INFO supervisord started with pid 2574
+2016-10-09 13:50:01,989 INFO spawned: 'comscore' with pid 19731
+2016-10-09 13:50:03,451 INFO success: comscore entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-10-09 13:51:18,071 INFO waiting for comscore to die
+2016-10-09 13:51:18,110 INFO stopped: comscore (exit status 0)
+2016-10-09 13:51:18,114 INFO RPC interface 'supervisor' initialized
+2016-10-09 13:51:18,114 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2016-10-09 13:51:18,114 INFO supervisord started with pid 2574
+2016-10-09 13:51:19,117 INFO spawned: 'comscore' with pid 19908
+2016-10-09 13:51:20,572 INFO success: comscore entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-10-09 13:57:15,495 INFO waiting for comscore to die
+2016-10-09 13:57:15,541 INFO stopped: comscore (exit status 0)
+2016-10-09 13:57:15,544 INFO RPC interface 'supervisor' initialized
+2016-10-09 13:57:15,544 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2016-10-09 13:57:15,544 INFO supervisord started with pid 2574
+2016-10-09 13:57:16,547 INFO spawned: 'comscore' with pid 20117
+2016-10-09 13:57:17,948 INFO success: comscore entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-10-09 13:58:53,563 INFO waiting for comscore to die
+2016-10-09 13:58:53,614 INFO stopped: comscore (exit status 0)
+2016-10-09 13:58:53,617 INFO RPC interface 'supervisor' initialized
+2016-10-09 13:58:53,617 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2016-10-09 13:58:53,617 INFO supervisord started with pid 2574
+2016-10-09 13:58:54,620 INFO spawned: 'comscore' with pid 20182
+2016-10-09 13:58:56,061 INFO success: comscore entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-10-09 14:07:37,373 INFO waiting for comscore to die
+2016-10-09 14:07:37,428 INFO stopped: comscore (exit status 0)
+2016-10-09 14:07:37,430 INFO RPC interface 'supervisor' initialized
+2016-10-09 14:07:37,431 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2016-10-09 14:07:37,431 INFO supervisord started with pid 2574
+2016-10-09 14:07:38,432 INFO spawned: 'comscore' with pid 20439
+2016-10-09 14:07:39,735 INFO success: comscore entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

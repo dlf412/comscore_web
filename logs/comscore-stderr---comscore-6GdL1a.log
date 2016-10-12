@@ -1,0 +1,15 @@
+[2016-10-09 14:07:38 +0000] [20439] [INFO] Starting gunicorn 19.6.0
+[2016-10-09 14:07:38 +0000] [20439] [INFO] Listening at: http://0.0.0.0:8000 (20439)
+[2016-10-09 14:07:38 +0000] [20439] [INFO] Using worker: sync
+[2016-10-09 14:07:38 +0000] [20444] [INFO] Booting worker with pid: 20444
+[2016-10-09 14:07:38 +0000] [20445] [INFO] Booting worker with pid: 20445
+[2016-10-09 14:07:38 +0000] [20454] [INFO] Booting worker with pid: 20454
+[2016-10-09 14:07:38 +0000] [20455] [INFO] Booting worker with pid: 20455
+/home/deng_lingfei/git_warehouse/comsocre_web/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+/home/deng_lingfei/git_warehouse/comsocre_web/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+/home/deng_lingfei/git_warehouse/comsocre_web/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+/home/deng_lingfei/git_warehouse/comsocre_web/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')

@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% import "_macros.html" as macros %}
+
+{% block title %}ComScore{% endblock %}
+
+{% block page_content %}
+<!-- <link href="{{ url_for('static', filename='JQuery-video5.8/css/video-js.min.css') }}" rel="stylesheet" type="text/css">
+<script src="{{ url_for('static', filename='JQuery-video5.8/js/video.min.js') }}"></script>
+<script type="text/javascript">
+    var myPlayer = videojs('example_video1');
+    videojs("example_video1").ready(function(){
+        var myPlayer = this;
+        myPlayer.play();
+    });
+</script>
+-->
+<div>
+    <h1>Hello, The MetaID {{ uuid }} videos:</h1>
+</div>
+    {% set width, height = calc_width_height(videos) %}
+    {% for video in videos %}
+    <!-- 代码 开始 -->
+    <object class id="clsid:D27CDB6E-AE6D-11cf-96B8-421553540000"
+            codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0"
+            width="{{ width }}" height="{{ heigth }}">
+        <param name="movie" value="{{ url_for('static', filename='flvplayer.swf') }}">
+        <param name="quality" value="low">
+        <param name="allowFullScreen" value="true">
+        <param name="FlashVars" value="vcastr_file={{ url_for('main.video', path=video[0]) }}&BufferTime=3&IsAutoPlay=1">
+        <embed src="{{ url_for('static', filename='flvplayer.swf') }}" allowfullscreen="true"
+               flashvars="vcastr_file={{ url_for('main.video', path=video[0]) }}&IsAutoPlay=1"
+               quality="low" pluginspage="http://www.macromedia.com/go/getflashplayer"
+               type="application/x-shockwave-flash" width="{{ width }}" height="{{ height }}"></embed>
+    </object>
+    <!-- 代码 结束 -->
+    {% endfor %}
+<div>
+    {% for video in videos %}
+    <li><a href="{{ url_for('main.video', path=video[0]) }}"> {{ video[1] }}</a> </li>
+    {% endfor %}
+</div>
+{% if pagination %}
+<div class="pagination">
+    {{ macros.pagination_widget(pagination, 'main.meta', uuid) }}
+</div>
+{% endif %}
+{% endblock %}
+
